@@ -1,3 +1,6 @@
+html{
+    background-color: rgb(255, 252, 69);
+}
 header{
     text-align: center;
     justify-content: center;
@@ -50,6 +53,13 @@ nav a:hover{
     padding: center;
     
 }
+section.project{
+    background-color: rgb(255, 172, 38);
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
 section.project img{
     height: 300px;
 }
@@ -65,6 +75,12 @@ section.howto{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: coral;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+
 }
 .howto img{
     height: 500px;
@@ -78,18 +94,23 @@ section.howto{
 .dokumentasi{
     margin: 20px;
 }
-.cardProfile{
-    background-color: orange;
-    border-radius: 10px 10px 10px 10px;
-    padding: 15px;
-    width: 300px;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 150px;
+.cardprofile{
+    background-color: burlywood;
+   width: 380px;
+   min-height: 520px;
+   padding: 25px;
+   margin-top: 80px;
+   border-radius: 10px;
+   text-align: center;
+
 }
 .imgProfile img{
-    width: 100%;
-    border-radius: 5px 5px 5px 5px;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    padding: 50px;
+    padding-top: 60px;
 
 }
 
@@ -105,7 +126,6 @@ section.howto{
     text-decoration: none;
     padding: 10px 10px;
     font-size: 24px;
-    text-align: center;
 }
 section.profile{
     width: 100px;
