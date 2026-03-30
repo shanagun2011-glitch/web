@@ -1,5 +1,6 @@
 html{
     background-color: rgb(255, 252, 69);
+    scroll-behavior: smooth;
 }
 header{
     text-align: center;
@@ -8,8 +9,17 @@ header{
     background: darkorange;
     height: 110px;
     box-shadow: 2px 2px 2px 2px;
-    position: relative;
+    position: fixed;
     font-size: 30px;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+body{
+    padding-top: 100px;
+}
+.content{
+    margin-top: 100px;
 }
 nav{
     margin-top: 25px;
