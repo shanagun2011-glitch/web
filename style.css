@@ -57,6 +57,12 @@ nav a:hover{
     width: 50%;
     margin-left: 10px;
     padding-top: 25px;
+   
+}
+.judul{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 .namaBiotek{
     width: 50%;
@@ -144,5 +150,26 @@ section.profile{
     justify-content: center;
 }
 .container{
+    text-align: center;
+    position: relative;
+}
+.deskBiotek{
+   width: 380px;
+   min-height: 100px;
+   padding: 25px;
+   margin-top: 80px;
+   border-radius: 10px;
+   text-align: center;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: chocolate;
+    padding: 20PX;
+    border-radius: 15px;
+    width: 60%;
+    text-align: center;
+}
+h1{
     text-align: center;
 }
