@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+.animasi{
+    background-image: url(snow.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    
+
+}
+.animasi div{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 15px;
+    margin: 5px;
+
+}
+.animasi div:nth-child(1){
+    left: 10%;
+    animation: jatuh 5s infinite ease-in;
+}
+.animasi div:nth-child(2){
+    left: 25%;
+    animation: jatuh 10s infinite ease-in;
+}
+.animasi div:nth-child(3){
+    left: 36%;
+    animation: jatuh 15s infinite ease-in;
+}
+
+.animasi div:nth-child(4){
+    left: 46%;
+    animation: jatuh 15s infinite linear;
+}
+
+.animasi div:nth-child(5){
+    left: 59%;
+    animation: jatuh 15s infinite linear;
+}
+
+.animasi div:nth-child(6){
+    left: 67%;
+    animation: jatuh 15s infinite linear;
+}
+
+.animasi div:nth-child(7){
+    left: 79%;
+    animation: jatuh 15s infinite linear;
+}
+
+.animasi div:nth-child(8){
+    left: 84%;
+    animation: jatuh 15s infinite linear;
+}
+
+.animasi div:nth-child(9){
+     left: 65%;
+    animation: jatuh 15s infinite linear;
+}
+
+.animasi div:nth-child(10){
+     left: 85%;
+    animation: jatuh 15s infinite linear;
+}
+@keyframes jatuh{
+    0%{
+        transform: translateY(0) rotate(0deg);
+
+    }
+
+    100%{
+        transform: translateY(400px) rotate(360deg);
+
+    }
+}
